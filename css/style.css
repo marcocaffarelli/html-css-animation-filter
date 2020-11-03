@@ -35,7 +35,13 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: background 1s;
 }
+
+.ex-4-square:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
