@@ -6,7 +6,7 @@
 }
 
 .ex-1-square:hover{
-  background-color: red
+    background-color: red
 }
 
 .ex-2-square {
@@ -17,13 +17,18 @@
 }
 
 .ex-2-square:active{
-  width: 1100px;
+    width: 100%;
 }
 
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 0.5s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
 }
 
 .ex-4-square {
